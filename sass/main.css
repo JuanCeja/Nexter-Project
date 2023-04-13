@@ -61,14 +61,15 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   gap: 6rem;
+  align-items: start;
 }
 
 .feature {
   display: grid;
   grid-template-columns: min-content 1fr;
   row-gap: 1.5rem;
-  -moz-column-gap: 2rem;
-       column-gap: 2rem;
+  -moz-column-gap: 2.5rem;
+       column-gap: 2.5rem;
   align-items: flex-start;
 }
 .feature__icon {
