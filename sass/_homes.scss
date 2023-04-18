@@ -2,9 +2,9 @@
     grid-column: center-start / center-end;
 
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-    margin: 15rem;
     gap: 7rem;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    margin: 15rem 0;
 }
 
 .home {
