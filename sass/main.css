@@ -179,6 +179,7 @@ body {
   background-color: #f9f7f6;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  row-gap: 3rem;
 }
 .home__img {
   width: 100%;
@@ -208,13 +209,11 @@ body {
   font-weight: 600;
 }
 .home__location, .home__rooms {
-  margin-top: 5.5rem;
+  margin-top: 2.5rem;
 }
 .home__location, .home__rooms, .home__area, .home__price {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 4rem;
+  margin-left: 2rem;
   font-size: 1.5rem;
 }
 .home__location svg, .home__rooms svg, .home__area svg, .home__price svg {
