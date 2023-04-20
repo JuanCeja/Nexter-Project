@@ -279,6 +279,11 @@ body {
   grid-row: 3/6;
   grid-column: 8/9;
 }
+.gallery__img--10 {
+  grid-row: 6/8;
+  grid-column: 1/2;
+}
+
 .footer {
   background-color: #101d2c;
   grid-column: full-start/full-end;
