@@ -272,10 +272,13 @@ body {
   grid-column: 5/6;
 }
 .gallery__img--8 {
-  grid-row: 4/5;
-  grid-column: 5/6;
+  grid-row: 3/5;
+  grid-column: 6/8;
 }
-
+.gallery__img--9 {
+  grid-row: 3/6;
+  grid-column: 8/9;
+}
 .footer {
   background-color: #101d2c;
   grid-column: full-start/full-end;
