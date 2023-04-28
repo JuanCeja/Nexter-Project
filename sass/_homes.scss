@@ -36,7 +36,29 @@
         z-index: 3;
         width: 80%;
         font-family: $font-display;
- 
+        font-size: 1.6rem;
+        text-align: center;
+        padding: 1.25rem;
+        background-color: $color-secondary;
+        color: #fff;
+        font-weight: 400;
+        transform: translateY(50%);
+    }
+
+    &__location,
+    &__rooms {
+        margin-top: 2.5rem;
+    }
+
+    &__location,
+    &__rooms,
+    &__area,
+    &__price {
+        font-size: 1.5rem;
+        margin-left: 2rem;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
         
         svg {
             fill: $color-primary;
