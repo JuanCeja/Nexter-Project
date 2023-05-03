@@ -129,7 +129,6 @@ body {
   background-color: #54483A;
   grid-column: full-start/col-end 6;
 }
-
 .realtors {
   background-color: #101d2c;
   grid-column: col-start 7/full-end;
