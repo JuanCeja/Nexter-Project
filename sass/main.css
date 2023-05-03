@@ -110,6 +110,7 @@ body {
   height: 2px;
   width: 4.5rem;
   content: "";
+  display: block;
 }
 .nav-btn::before {
   transform: translateY(-1.5rem);
