@@ -134,7 +134,7 @@ body {
   padding: 8rem;
   padding-top: 4rem;
   display: grid;
-  grid-template-rows: 1fr min-content 6rem 1fr;
+  grid-template-rows: 1fr min-content minmax(6rem, min-content) 1fr;
   row-gap: 1.5rem;
   grid-template-columns: max-content;
   justify-content: center;
