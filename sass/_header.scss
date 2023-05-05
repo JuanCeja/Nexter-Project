@@ -10,9 +10,8 @@
     display: grid;
     grid-template-rows: 1fr min-content minmax(6rem, min-content) 1fr;
     row-gap: 1.5rem;
-    grid-template-columns: max-content;
+    grid-template-columns: minmax(min-content, max-content);
     justify-content: center;
-
 
     &__logo {
         height: 3rem;
@@ -32,7 +31,7 @@
 
         font-size: 1.6rem;
         color: $color-grey-light-2;
-        
+
         &::before,
         &::after {
             content: "";
@@ -47,9 +46,11 @@
         grid-template-columns: repeat(4, 1fr);
         column-gap: 3rem;
         justify-items: center;
+        align-items: center;
 
         img {
-            height: 2.5rem;
+            max-height: 2.5rem;
+            max-width: 100%;
             filter: brightness(70%);
         }
     }
