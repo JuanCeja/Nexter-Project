@@ -8,6 +8,8 @@
         grid-template-columns: repeat(6, 1fr);
         align-items: center;
         background-image: linear-gradient(rgba($color-primary, .5), rgba($color-primary, .5)), url(../img/back.jpg);
+
+        
     }
 
     &__img--1 {
